@@ -137,23 +137,23 @@ def create_drinks(payload):
 '''
 
 
-@app.route('/drinks/<int: id>', methods=['PATCH'])
-@requires_auth('PATCH:drinks')
-def update_drinks(id):
-    drink = Drink.query.filter(Drink.id == id).one_or_none()
-    body = request.get_json()
-    drink.title = body.get("title", None)
-    drink.recipe = json.dumps(body.get("recipe", None))
+# @app.route('/drinks/<int: id>', methods=['PATCH'])
+# @requires_auth('PATCH:drinks')
+# def update_drinks(id):
+#     drink = Drink.query.filter(Drink.id == id).one_or_none()
+#     body = request.get_json()
+#     drink.title = body.get("title", None)
+#     drink.recipe = json.dumps(body.get("recipe", None))
 
-    if drink is None:
-        abort(404)
+#     if drink is None:
+#         abort(404)
 
-    drink.update()
+#     drink.update() 
 
-    return jsonify({
-        "success": True,
-        "drinks": drink.long()
-    })
+#     return jsonify({
+#         "success": True,
+#         "drinks": drink.long()
+#     })
 
 '''
 @TODO implement endpoint
@@ -166,7 +166,6 @@ def update_drinks(id):
     is the id of the deleted record
         or appropriate status code indicating reason for failure
 '''
-
 
 # Error Handling
 '''
