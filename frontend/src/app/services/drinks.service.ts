@@ -56,27 +56,27 @@ export class DrinksService {
   //                                   },
   //                                 ]
   //                           },
-  //                           3: {
-  //                             id: 3,
-  //                             title: 'cap',
-  //                             recipe: [
-  //                                   {
-  //                                     name: 'foam',
-  //                                     color: 'white',
-  //                                     parts: 1
-  //                                   },
-  //                                   {
-  //                                     name: 'milk',
-  //                                     color: 'grey',
-  //                                     parts: 2
-  //                                   },
-  //                                   {
-  //                                     name: 'coffee',
-  //                                     color: 'brown',
-  //                                     parts: 1
-  //                                   },
-  //                                 ]
-  //                           }
+                            // 3: {
+                            //   id: 3,
+                            //   title: 'cap',
+                            //   recipe: [
+                            //         {
+                            //           name: 'foam',
+                            //           color: 'white',
+                            //           parts: 1
+                            //         },
+                            //         {
+                            //           name: 'milk',
+                            //           color: 'grey',
+                            //           parts: 2
+                            //         },
+                            //         {
+                            //           name: 'coffee',
+                            //           color: 'brown',
+                            //           parts: 1
+                            //         },
+                            //       ]
+                            // }
   //   };
 
 
